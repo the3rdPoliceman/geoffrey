@@ -1,0 +1,28 @@
+# WebStorm project settings
+.idea/
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+build/
+
+# Docker files
+.dockerignore
+.docker/
+*.dockerfile
+
+# Environment files
+.env*
+!.env.example
