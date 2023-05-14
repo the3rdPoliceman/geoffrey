@@ -10,7 +10,7 @@ The initial ideas for tasks are:
 
 ## Technologies
 
-Implement will use the following technologies
+Implemention will use the following technologies
 - Runs on Linux (Will be a raspberry pi, but that should not be important as it should run on any linux)
 - Node.js for the main implementation which carries out tasks, and provides any web interface
 - Express.js to help serve the web interface
