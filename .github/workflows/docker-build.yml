@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository }}/geoffrey:latest
+        tags: ghcr.io/the3rdpoliceman/geoffrey/geoffrey:latest
