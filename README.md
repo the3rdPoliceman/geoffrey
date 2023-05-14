@@ -22,3 +22,12 @@ Implemention will use the following technologies
 - PM2 to ensure node is always up
 - Docker for reliable deployment
 - GitHub as a repository
+
+## Raspberry Pi setup
+
+- Install latest Raspberry Pi OS
+- run `sudo apt-get update`
+- run `sudo apt-get upgrade`
+- follow the rest of the installation instructions at https://withblue.ink/2020/06/24/docker-and-docker-compose-on-raspberry-pi-os.html until the Hello World example to confirm success
+- double check that systemd setup to start docker automatically, and restart it if it goes down is in place
+
