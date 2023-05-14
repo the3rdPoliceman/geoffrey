@@ -1,4 +1,4 @@
-# geoffrey
+# Geoffrey
 
 ## Concept
 
