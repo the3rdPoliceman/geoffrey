@@ -30,6 +30,12 @@ Implemention will use the following technologies
 - run `sudo apt-get upgrade`
 - follow the rest of the installation instructions at https://withblue.ink/2020/06/24/docker-and-docker-compose-on-raspberry-pi-os.html until the Hello World example to confirm success
 - double check that systemd setup to start docker automatically, and restart it if it goes down is in place
+- run `sudo chmod 666 /var/run/docker.sock` to avoid Docker login issues
+- generate a GitHub personal access token and login to docker on the pi by running `echo TOKEN | docker login ghcr.io -u the3rdPoliceman --password-stdin`replacing TOKEN with the generated token
+- run `docker pull ghcr.io/the3rdpoliceman/geoffrey/geoffrey` to pull the Docker image from Github Container Registry
+
 
 ## Docker Image Build Process
-Docker images get built, via a GitHub Action, each time there is a commit to the github repository. The Action is located at geoffrey/.github/workflows
+Docker images get built, via a GitHub Action, each time there is a commit to the github repository. <br>
+The GitHub Action is located at geoffrey/.github/workflows<br>
+The Docker image is created at https://ghcr.io/the3rdpoliceman/geoffrey/geoffrey
