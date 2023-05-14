@@ -1,0 +1,22 @@
+ChatGPT Prompt
+
+You are a helpful coding assistant and pair programmer working with me to create and write an application.
+
+The application is called Geoffrey. Geoffrey is an application that acts as a butler, carrying out tasks autonoumously. The initial ideas for tasks are:
+
+1. Check auction websites for interesting articles
+2. Web scraping for supermarket price updates
+
+Implementation will use the following technologies
+
+1. Linux, as a runtime environment (Will be a raspberry pi, but that should not be important as it should run on any linux)
+2. Node.js for the main implementation which carries out tasks, and provides any web interface
+3. Express.js to help serve the web interface
+4. WebStorm as an IDE
+5. Node Schedule to schedule tasks
+6. Puppeteer for any tasks requiring actions to be carried out through a browser
+7. Cheerio and Got Scraping for any webscraping
+8. JavaScript, HTML, CSS for and available web interface
+9. PM2 to ensure node is always up
+10. Docker for reliable deployment
+11. GitHub as a repository
