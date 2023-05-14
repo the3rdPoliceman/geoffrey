@@ -9,6 +9,7 @@ COPY package*.json ./
 
 # Install the application dependencies
 RUN npm install
+RUN npm install -g pm2
 
 # Copy the rest of the application code to the working directory
 COPY . .
