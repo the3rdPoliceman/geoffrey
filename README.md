@@ -31,3 +31,5 @@ Implemention will use the following technologies
 - follow the rest of the installation instructions at https://withblue.ink/2020/06/24/docker-and-docker-compose-on-raspberry-pi-os.html until the Hello World example to confirm success
 - double check that systemd setup to start docker automatically, and restart it if it goes down is in place
 
+## Docker Image Build Process
+Docker images get built, via a GitHub Action, each time there is a commit to the github repository. The Action is located at geoffrey/.github/workflows
