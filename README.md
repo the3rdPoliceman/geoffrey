@@ -8,6 +8,10 @@ The initial ideas for tasks are:
 - Check auction websites for interesting articles
 - Web scraping for supermarket price updates
 
+## ChatGPT Playground Helper
+
+The file `util/run_generateStateForChatGPT.sh` can be used to generate a statement of the current project state, as a starting point for the ChatGPT playground
+
 ## Technologies
 
 Implemention will use the following technologies
