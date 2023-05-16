@@ -1,15 +1,23 @@
 {
-  "name": "project",
+  "name": "geoffrey",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A helpful butler application",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["butler", "automation", "web-scraping"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-schedule": "^2.1.1"
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "node-schedule": "^2.1.1",
+    "puppeteer": "^20.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
