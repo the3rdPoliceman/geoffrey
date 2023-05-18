@@ -1,0 +1,18 @@
+{
+  "searches": [
+    {
+      "type" : "ITEM",
+      "seller" : "",
+      "titleInclude" : "Football Shirt",
+      "titleExclude" : "Basketball",
+      "descriptionInclude" : "Juventus",
+      "descriptionExclude" : "Barcelona"
+    },
+    {
+      "type" : "SELLER",
+      "seller" : "Dipl.Ing.Fust",
+      "titleInclude" : "Jura",
+      "descriptionInclude" : "V8"
+    }
+  ]
+}
