@@ -45,6 +45,7 @@ RUN apt-get update && apt-get install -y \
     libappindicator3-1 \
     libsecret-1-0 \
     libgbm-dev \
+    chromium-browser \
     --no-install-recommends \
     && apt-get autoremove -y \
     && apt-get clean -y \
